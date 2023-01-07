@@ -1,0 +1,1014 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s ease !important;
+  font-family: "Poppins", sans-serif !important;
+  margin: auto;
+  max-width: 120rem;
+  color: rgb(255, 247, 0);
+
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+body {
+  background: #ffaaaa !important;
+}
+
+:root {
+  --main-color: rgb(255, 0, 0);
+}
+
+header {
+  margin-top: 1rem;
+}
+
+.avez_navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avez_nav_list ul {
+  display: flex;
+  align-items: center;
+}
+
+.avez_nav_list ul li {
+  list-style: none;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.avez_nav_list ul li:hover {
+  color: var(--main-color);
+}
+
+.avez_logo {
+  font-size: 3rem;
+}
+
+.avez_logo span {
+  color: var(--main-color);
+}
+
+.avez_overlay_gym {
+  background: url(assets/assets/images/smoke_overlay.jpg);
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.avez_gym_section1 {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.avez_main_text {
+  font-size: 6rem;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.avez_main_text_1 h1 {
+  color: var(--main-color);
+}
+
+.avez_main_text_image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avez_main_image {
+  position: absolute;
+  top: 9%;
+  width: 470px;
+  left: 35%;
+}
+
+.search-btn:hover {
+  color: #ff2625 !important;
+  border: 1px solid #ff2625 !important;
+}
+
+.avez_main_image img {
+  max-height: auto;
+  opacity: 0.9;
+  filter: grayscale(1);
+  width: 100%;
+  height: 100%;
+}
+
+.avez_section2 {
+  height: 100vh;
+  margin-top: -2rem;
+}
+
+.avez_search_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.avez_search_title h1 {
+  color: black;
+}
+
+.avez_search {
+  display: flex;
+  justify-content: center;
+}
+
+.avez_search input {
+  width: 800px;
+  height: 47px;
+  outline: none;
+  border: none;
+  color: black;
+  padding: 7px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+.avez_category_title {
+  text-transform: capitalize;
+}
+
+.avez_category_icon {
+  margin-top: -1rem;
+}
+
+.avez_search button {
+  height: 45px;
+  color: #000;
+  padding: 5px;
+  outline: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: #fff;
+  margin-left: 0.1rem;
+}
+
+.avez_search button:hover {
+  background-color: rgb(119, 0, 0);
+}
+
+.avez_search_title span {
+  color: var(--main-color);
+}
+
+.avez_search {
+  display: flex;
+  justify-content: center;
+}
+
+.avez_display_head {
+  margin: 3rem;
+  color: #ff0000;
+}
+
+.avez_category_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  margin-top: 4vw;
+}
+
+.avez_category_card {
+  width: 220px;
+  height: 220px;
+  background: #000;
+  text-align: center;
+  padding: 73px 73px 0px 73px;
+  margin: 4rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.bx {
+  font-size: 1rem;
+}
+
+.avez_category_card:hover {
+  transform: scale(1.1);
+  border-top: 4px solid #000;
+  background: #ff0000;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  background-color: rgba(88, 88, 88, 0.732);
+  height: 8px;
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+.right-arrow,
+.left-arrow {
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff2625;
+  font-size: 25px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: -20px;
+  right: 80px;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.right-arrow {
+  right: 140px;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+  transform: scale(1.3, 1.3);
+}
+
+.react-horizontal-scrolling-menu--wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail-image {
+  width: 729px;
+  height: 742px;
+}
+
+.hero-banner-img {
+  position: absolute;
+  right: 40px;
+  top: 0px;
+  width: 700px;
+  height: 900px;
+  margin-top: -330px;
+}
+
+.exercise-card {
+  width: 400px;
+  height: 445px;
+  background: #fff;
+  border-top: 4px solid #ff2625;
+  border-bottom-left-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 10px;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-card img {
+  height: 326px;
+}
+
+.bodyPart-card {
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.search-btn:hover {
+  color: #ff2625 !important;
+  border: 1px solid #ff2625 !important;
+}
+
+.exercise-video {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 387px;
+  height: 381px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .detail-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .react-horizontal-scrolling-menu--scroll-container {
+    width: 500px;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    position: static !important;
+  }
+
+  .hero-banner-img {
+    display: none;
+  }
+
+  .exercise-card {
+    width: 320px;
+  }
+
+  .exercise-video {
+    width: 320px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .exercise-card {
+    width: 280px;
+  }
+}
+
+.section3 {
+  background: #b9b9b9;
+}
+
+.avez_excercise_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.avez_excercise_card {
+  width: 321px;
+  height: 414px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #959595, -20px -20px 60px #b9b9b9;
+  border-radius: 10px;
+  margin: 3rem;
+}
+
+.avez_excercise_card:hover {
+  box-shadow: none;
+  cursor: pointer;
+  border-bottom: 3px solid red;
+}
+
+.avez_excercise_image {
+  width: 321px;
+  height: 290px;
+}
+
+.avez_excercise_image img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.avez_excercise_name {
+  padding: 2rem;
+  text-transform: capitalize;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.avez_excercise_name h3 {
+  color: #000;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.avez_excercise_name button {
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  display: flex;
+  margin: 0;
+  margin-bottom: 7px;
+  margin-top: -12px;
+  background-color: rgb(209, 9, 43);
+  padding: 3px 6px;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section5 {
+  margin-top: -6rem;
+  padding-top: 7rem;
+  height: 100vh;
+  background: linear-gradient(145deg, #202020, #272727);
+}
+
+.avez_detail_page_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.avez_workout_gif {
+  width: 500px;
+  height: 600px;
+  box-shadow: 20px 20px 60px #292929, -20px -20px 60px #373737;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.avez_workout_gif img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.avez_workout_gif_content {
+  width: 40%;
+}
+
+.avez_workout_gif_content h1 {
+  line-height: 6rem;
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+.avez_workout_gif_content p {
+  line-height: 2rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.avez_workout_gif_content ul li {
+  line-height: 4rem;
+  font-size: 1rem;
+}
+
+.desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.movieCards {
+  overflow-x: auto;
+  display: flex;
+  width: 100%;
+}
+
+.movieCard {
+  margin: 2rem;
+  height: 65vh;
+}
+
+.movieImg {
+  width: 302px;
+  height: 202px;
+}
+
+.movieImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.movieImg:hover {
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+body {
+  font-family: "Josefin Sans";
+  background-color: #fffafb;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.right-arrow,
+.left-arrow {
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff2625;
+  font-size: 25px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: -20px;
+  right: 80px;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.right-arrow {
+  right: 140px;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+  transform: scale(1.3, 1.3);
+}
+
+.react-horizontal-scrolling-menu--wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail-image {
+  width: 729px;
+  height: 742px;
+}
+
+.hero-banner-img {
+  position: absolute;
+  right: 40px;
+  top: 0px;
+  width: 700px;
+  height: 900px;
+  margin-top: -330px;
+}
+
+.exercise-card {
+  width: 400px;
+  height: 445px;
+  background: #fff;
+  border-top: 4px solid #ff2625;
+  border-bottom-left-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 10px;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-card img {
+  height: 326px;
+}
+
+.search-btn:hover {
+  color: #ff2625 !important;
+  border: 1px solid #ff2625 !important;
+}
+
+.exercise-video {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 387px;
+  height: 381px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .detail-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .react-horizontal-scrolling-menu--scroll-container {
+    width: 500px;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    position: static !important;
+  }
+
+  .hero-banner-img {
+    display: none;
+  }
+
+  .exercise-card {
+    width: 320px;
+  }
+
+  .exercise-video {
+    width: 320px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .exercise-card {
+    width: 280px;
+  }
+}
+
+.head_youtube_avez {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.head_youtube_avez h1 {
+  color: red;
+  text-align: center;
+}
+
+.head_youtube_avez span {
+  color: black;
+}
+
+.movieSlider {
+  background: #b9b9b9;
+  padding-top: 1rem;
+  height: 100vh;
+}
+
+.yt_logo_videos_avez {
+  width: 360px;
+  margin-top: 4rem;
+}
+
+.yt_logo_videos_avez img {
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  transform: translateX(129%);
+  margin-bottom: 2rem;
+}
+
+.avez_workout_gif_content {
+  text-transform: capitalize;
+}
+
+.avez_workout_gif_content ul li span img {
+  background-color: #b9b9b9;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.avez_workout_gif_content ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avez_workout_gif_content {
+  font-size: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+.image_value_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.css-1p959bk {
+  overflow-y: hidden !important;
+}
+
+.css-5vwnhv-MuiStack-root {
+  background-color: #282828 !important;
+  height: 100vh !important;
+  color: red !important;
+}
+
+.css-wtph2a-MuiTypography-root {
+  color: red !important;
+}
+
+.css-dghc8s-MuiStack-root {
+  width: 250px !important;
+  height: 250px !important;
+  background-color: #000 !important;
+  border-radius: 10px !important;
+}
+
+.css-dghc8s-MuiStack-root:hover {
+  background-color: #250c0cc2 !important;
+  color: #fff;
+}
+
+.exercise-card {
+  width: 343px !important;
+  height: 441px !important;
+  border-radius: 15px !important;
+  border: 1px solid #fff !important;
+}
+
+.exercise-card:hover {
+  transform: translateY(1.1) !important;
+  box-shadow: 7px 1px 57px -16px rgba(244, 244, 244, 0.75);
+  -webkit-box-shadow: 7px 1px 57px -16px rgba(244, 244, 244, 0.75);
+  -moz-box-shadow: 7px 1px 57px -16px rgba(244, 244, 244, 0.75) !important;
+}
+
+.exercise-card img {
+  border-radius: 15px !important;
+}
+
+.css-o6tb9j-MuiButtonBase-root-MuiButton-root {
+  background-color: red !important;
+}
+
+.css-o6tb9j-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: red;
+}
+
+.fontAVez {
+  font-size: 8rem;
+  color: red;
+}
+
+.fontAVez span {
+  color: #fff !important;
+}
+
+.css-1bfz5mc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.css-1bfz5mc p {
+  font-size: 5rem;
+  margin-top: 8rem;
+}
+
+.avez_overlay_gym {
+  /* background: url(smoke-overlays-1-AE77V6.jpg); */
+  background: url("./assets/assets/images/smoke_overlay.jpg");
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.css-1796qej {
+  width: 100% !important;
+}
+
+.logo h1 {
+  font-size: 3rem;
+}
+
+.css-kfwm9p-MuiStack-root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 9rem;
+}
+
+input {
+  border-radius: 0px !important;
+}
+
+.css-134szpy-MuiFormControl-root-MuiTextField-root {
+  border-radius: 5px !important;
+}
+
+.navGym:hover {
+  color: red !important;
+}
+
+.detail-image {
+  border-radius: 57px;
+}
+
+.css-1yut5do {
+  margin-top: 0 !important;
+}
+
+.css-1kz0ks4-MuiStack-root {
+  display: block !important;
+}
+
+@media (max-width: 1200px) {
+  .SmallFont {
+    font-size: 6vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .navGym {
+    font-size: 15px;
+  }
+
+  .SmallNone {
+    display: none;
+  }
+
+  .SmallFont {
+    font-size: 1rem;
+  }
+
+  .avez_main_image {
+    position: absolute;
+    top: 39%;
+    width: 259px;
+    left: 0%;
+  }
+
+  .css-kfwm9p-MuiStack-root {
+    margin: 2rem 2rem;
+  }
+
+  .css-134szpy-MuiFormControl-root-MuiTextField-root {
+    width: 257px;
+  }
+}
+
+.footer_section_avez {
+  padding-top: 2rem;
+  background-color: #34312b42;
+}
+
+.avez_movie_footer_container {
+  text-align: center;
+}
+
+.avez_movie_footer_desc {
+  width: 50%;
+}
+
+.branding_avez_dev {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #151515;
+}
+
+.avez_movie_footer_logo h1 {
+  font-size: 4rem;
+}
+
+.avez_movie_footer_logo h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
+  padding-bottom: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+.avez_movie_socials ul li i {
+  background-color: #151515;
+  display: inline;
+  padding: 16px 16px;
+  border-radius: 50%;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.avez_movie_socials ul li i:hover {
+  color: red;
+}
+
+.addFav {
+  cursor: pointer;
+}
+
+.addFav {
+  color: red !important;
+}
+
+.addFav:hover {
+  color: #fff !important;
+}
+
+.colorbx {
+  color: red;
+}
+
+.colorbx:hover {
+  color: #fff;
+}
+
+.avez_movie_socials ul {
+  padding-bottom: 2rem;
+}
+
+.desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+@media (max-width: 300px) {
+  .avez_movie_footer_logo h1 {
+    font-size: 2rem;
+  }
+}
+
+.exercise-video {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 357px !important;
+  max-height: 242px !important;
+  text-decoration: none;
+  margin: 2rem;
+}
+
+.exercise-video img {
+  height: 100%;
+  border-radius: 18px;
+}
+
+.css-1yut5do {
+  height: 100vh;
+  text-align: center;
+}
+
+.subvideos {
+  overflow-y: auto;
+}
+
+.mainGymDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  margin: 5rem;
+}
+
+.css-gymcob-MuiStack-root {
+  overflow-x: auto;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 150vh;
+}
+
+.videos::-webkit-scrollbar {
+  display: block !important;
+}
+
+.youtube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.stack {
+  display: flex;
+}
