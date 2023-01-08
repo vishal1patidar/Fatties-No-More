@@ -14,7 +14,7 @@ Fatties-No-More is a fitness Excercise App, with more 1000+ excercise animations
 
 ![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
 
-## Sneak Peek of Admin Dashboard 🙈 :
+## Sneak Peek of  Dashboard 🙈 :
 ![q](https://user-images.githubusercontent.com/79128256/211145230-5d481117-948d-4035-91dd-885736d5af17.png)
 
 <table>
