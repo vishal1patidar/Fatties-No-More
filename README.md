@@ -1,6 +1,6 @@
 # Fatties-No-More
 
-Fatties-No-More is a fitness Excercise App, with more 1000+ excercise animations, youtube video recommendation feature, similar excercise recommendation feature and much more, It is build using React JS using Rapid API
+Fatties-No-More is a fitness Excercise App, with more 1000+ excercise animations, youtube video recommendation feature, Similar excercise recommendation feature and much more, It is build using React JS using Rapid API
 
 
 ## 🖥️ Tech Stack
